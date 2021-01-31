@@ -3,3 +3,9 @@ A simple [phase shifter CMOS circuit](https://sci-hub.do/https://ieeexplore.ieee
 
 This is still a work in progress.
 Please refer to development branch for latest updates.
+
+Steps:
+1. `./install_pdk.sh`
+2. `./install_tools.sh`
+3. `cp -rf ./.xschem $HOME`
+4. `xschem phase_shifter.sch`
